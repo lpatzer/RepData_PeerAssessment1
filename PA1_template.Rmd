@@ -63,8 +63,7 @@ na.count<-sum(is.na(data$steps))
 na.count
 ```
 
-Creating a second version of the data where all empty values are replaced with the mean number of steps taken in a 5 minute interval
-
+Creating a second version of the data where all empty values are replaced with the mean number of steps taken in a 5 minute interval.  I used this simple way of imputing NA values since the instructions said the approach did not have to be sophisticated. 
 ```{r}
 data2<-data
 for (i in 1:length(data$steps)){

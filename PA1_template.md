@@ -100,8 +100,7 @@ na.count
 ## [1] 2304
 ```
 
-Creating a second version of the data where all empty values are replaced with the mean number of steps taken in a 5 minute interval
-
+Creating a second version of the data where all empty values are replaced with the mean number of steps taken in a 5 minute interval.  I used this simple way of imputing NA values since the instructions said the approach did not have to be sophisticated. 
 
 ```r
 data2<-data
